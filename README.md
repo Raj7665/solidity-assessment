@@ -1,10 +1,10 @@
 # Create a Token
 
-MyToken (MTK) is a simple ERC-20-like token implemented on the Ethereum blockchain. It allows for basic token operations such as minting and burning tokens. This contract serves as a foundational example for creating and managing your own cryptocurrency tokens.
+RajToken is a simple token implemented on the Ethereum blockchain. It allows for basic token operations such as minting and burning tokens. This contract serves as a foundational example for creating and managing your own cryptocurrency tokens.
 
 ## Description
 
-MyToken is designed to provide a straightforward implementation of a custom token on the Ethereum blockchain. It includes basic functionalities such as:
+RajToken is designed to provide a straightforward implementation of a custom token on the Ethereum blockchain. It includes basic functionalities such as:
 
 Minting: Creating new tokens and adding them to an account.
 
@@ -43,7 +43,7 @@ pragma solidity >=0.8.9;
 contract MyToken {
 
     // Public variables to store token details
-    string public tokenName = "Raj";
+    string public tokenName = "RajToken";
     string public tokenAbbrv = "MTA";
     uint public totalSupply = 1000;
 
@@ -68,11 +68,11 @@ contract MyToken {
 ```
 ### Compiling the Contract
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.9", and then click on the "Compile MyToken.sol" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.9", and then click on the "Compile RajToken.sol" button.
 
 ### Deploying the Contract
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "RajToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
 ### Interacting with the Contract
 
