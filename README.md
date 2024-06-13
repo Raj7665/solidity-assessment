@@ -20,7 +20,7 @@ This project can be used as a starting point for more complex token systems, inc
 To get started with MyToken using Remix, follow these steps:
 
 * Open Remix: Go to Remix IDE = https://remix.ethereum.org/..
-* Create a New File: In the Remix file explorer, click the "+" button to create a new file and name it MyToken.sol.
+* Create a New File: In the Remix file explorer, click the "+" button to create a new file and name it RajToken.sol.
 * Copy and paste the following code into the file:
 
 ```// SPDX-License-Identifier: MIT
