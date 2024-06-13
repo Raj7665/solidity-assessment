@@ -18,8 +18,8 @@ pragma solidity >=0.8.9;
 contract MyToken {
 
     // Public variables to store token details
-    string public tokenName = "MyToken";
-    string public tokenAbbrv = "MTK";
+    string public tokenName = "Raj";
+    string public tokenAbbrv = "MTA";
     uint public totalSupply = 1000;
 
     // Mapping from addresses to their balances
